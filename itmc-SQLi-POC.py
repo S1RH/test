@@ -10,7 +10,9 @@ import requests
 import urllib.parse
 #import logging
 
-
+headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36',
+        }
 #target = "http://zzds.itmc.org.cn/Cust/Login.aspx"
 
 #proxies = {'http':'http://localhost:8080','https':'http://localhost:8080'}
